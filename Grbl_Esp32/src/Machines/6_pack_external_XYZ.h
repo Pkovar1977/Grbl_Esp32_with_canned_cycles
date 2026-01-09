@@ -89,16 +89,11 @@
 
 //#define SPINDLE_TYPE            SpindleType::RELAY
 #define SPINDLE_TYPE            SpindleType::PWM
-#define SPINDLE_ENABLE_PIN      GPIO_NUM_4  // labeled SpinEnbl
+#define SPINDLE_ENABLE_PIN      GPIO_NUM_4  // labeled SpinEnble
 #define SPINDLE_OUTPUT_PIN      GPIO_NUM_16  // labeled SpinPWM
 
 #define COOLANT_FLOOD_PIN       I2SO(20)  // labeled Flood
-#define COOLANT_MIST_PIN        I2SO(21)  // labeled Mist
-//#define PROBE_PIN               GPIO_NUM_32  // labeled Probe
-
-
-
-// 4x Input Module in Socket 
+#define COOLANT_MIST_PIN        I2SO(21)  // labeled Mist 
 
 
 #define CONTROL_SAFETY_DOOR_PIN     GPIO_NUM_36  // labeled Door,  needs external pullup
