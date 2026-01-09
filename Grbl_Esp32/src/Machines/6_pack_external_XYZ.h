@@ -85,7 +85,7 @@
 //#define ROTARY_DISABLE_PIN    I2SO(19) // Shared disable for ABC TMC drivers SPI
 #define STEPPERS_DISABLE_PIN    I2SO(13) // Shared disable for XYZ drivers SD
 #define ROTARY_DISABLE_PIN      I2SO(14) // Shared disable for XYZ drivers SD
-#define LUBRICATION_DISABLE_PIN I2SO(15) // Shared disable for ABC drivers SD
+#define LUBRICATION_DISABLE_PIN I2SO(15) // Lubrication disable for external lubrication controller
 
 //#define SPINDLE_TYPE            SpindleType::RELAY
 #define SPINDLE_TYPE            SpindleType::PWM
